@@ -1,0 +1,21 @@
+{
+    "host": "",
+    "port": 443,
+    "apiServer": {
+        "host": "",
+        "token": ""
+    },
+    "security": {
+        "ssl": {
+            "key": "/home/pandora/security/server.key",
+            "crt": "/home/pandora/security/server.crt"
+        },
+        "authRequired": true
+    },
+    "database": {
+        "connectionUrl": "mongodb://127.0.0.1:27017/PANDORA",
+        "options": {}
+    },
+    "version": "1.0.0",
+    "isDev": true
+}

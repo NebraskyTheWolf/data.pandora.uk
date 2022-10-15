@@ -1,0 +1,33 @@
+{
+  "name": "data.pandora.uk",
+  "version": "1.0.0",
+  "description": "PANDORA Bot Data Sever",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NebraskyTheWolf/data.pandora.uk.git"
+  },
+  "keywords": [
+    "Data",
+    "Server",
+    "Backend"
+  ],
+  "author": "NebraskyTheWolf",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/NebraskyTheWolf/data.pandora.uk/issues"
+  },
+  "homepage": "https://github.com/NebraskyTheWolf/data.pandora.uk#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "mongoose": "^6.6.5",
+    "pmx": "^1.6.7"
+  }
+}
